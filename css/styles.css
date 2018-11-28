@@ -1,0 +1,181 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+nav{
+  font-size: 0;
+  position: sticky; top: 0px;
+}
+nav a{
+  text-align: center;
+  font-size: 1.5vw;
+  display: inline-block;
+  width: 20%;
+  margin: 0;
+  padding: 1px;
+  /* color: white;
+  background-color:#708090; */
+  background: #B22222;
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 10px;
+  font-weight: 100px;
+
+}
+
+a {
+    color: #EF233C;
+}
+a:hover {
+    /* text-decoration:underline; */
+    /* background-color: blue; */
+    font-weight: 700;
+
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+
+header,
+footer {
+  /* background: #2B2D42; */
+  /* background: #FF4500; */
+  /* color: #8D99AE; */
+  /* background-color:#00FF7F;
+  color: black; */
+  background: #B22222;
+  color: white;
+}
+header h1,
+header h2 {
+    color: #EDF2F4;
+    /* color: black; */
+    margin: 0;
+}
+
+
+header {
+  /*text-align: center;*/
+}
+.profile-img {
+  /* width: 300px; */
+  border-radius: 50%;
+  /* animation-name: bounce; */
+  /* float: left; */
+  /* margin-right: 30px; */
+  animation:
+    pulse 3s ease infinite alternate,
+    nudge 5s linear infinite alternate;
+}
+
+
+footer {
+  text-align: center;
+}
+.contact-info a {
+  color: #8BE7F2;
+  padding: 10px;
+  display: inline-block;
+}
+
+.work {
+    background: #FFDAB9;
+}
+
+.Skills{
+  background: #FFFFF0;
+}
+
+.Projects{
+  background: #FFA07A;
+}
+
+.education {
+    background: #FFFFF0;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.6;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
